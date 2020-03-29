@@ -41,8 +41,8 @@
         line-height: 16px;
         color: #FFFFFF;
         text-decoration: none;
-        margin-right: 25px;
-        margin-left: 25px;
+        margin-right: 20px;
+        margin-left: 20px;
         position: relative;
     }
 
@@ -54,13 +54,14 @@
     
     .menu a {
         padding: 8px;
-        font-weight: bold;
+
         color: #FFFFFF;
     }
     
     .menu a:hover {
         color: #ffffff;
         transition: color 0.3s;
+        
     }
     
     .menu a::before,
