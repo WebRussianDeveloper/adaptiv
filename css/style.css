@@ -147,9 +147,11 @@
         width: 128px;
         height: 128px;
     }
-  
+  /* Давайте работать вместе */
 
-
+.subtittle{
+    margin-top: 40px;
+}
     
 
     /* кнопка */
@@ -359,9 +361,15 @@
             margin-top: 100px;
         }
         .subtittle {
+
+            margin-left: 24%;
             font-size: 25px;
         }
-
+        .button {
+            margin-left: 30%;
+            margin-top: 40px;
+            
+        }
 
        
     }
@@ -375,7 +383,8 @@
             line-height: 100px;
         }
         .button {
-            margin-left: 34%;
+            font-size: 19px;
+            margin-left: 25%;
         }
     }
 
@@ -392,16 +401,13 @@
             
         }
         .subtittle{
-            font-size: 16px;
+            font-size: 15px;
             margin-left: 20%;
             margin-top: 40px;
         }
         .button{
+            font-size: 15px;
             margin-top: 40px;
-        }
-        .button a{
-            
-            font-size: 20px;
         }
         .main_tittle{
             font-size: 80px;
@@ -416,16 +422,17 @@
             font-size: 60px;
         }
         .subtittle{
-            font-size: 14px;
+            font-size: 12px;
             margin-left: 15%;
-            margin-top: 20px;
+            margin-top: 40px;
     }
     .features{
         margin-left: 2%;
     }
     .button {
-        margin-left: 25%;
-        margin-top: 50px;
+        font-size: 12px;
+        margin-left: 15%;
+        margin-top: 40px;
         
     }
 }
