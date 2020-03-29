@@ -114,11 +114,6 @@
       .social__item {
         cursor: pointer;
       }
-      .whatsapp:hover {
-        border-color: #4dc247;
-        box-shadow: 0px 0px 20px #4dc247;
-        color: #4dc247;
-      }
       .vk:hover {
         border-color: #00aced;
         box-shadow: 0px 0px 20px #00aced;
@@ -134,11 +129,10 @@
         box-shadow: 0px 0px 20px #bc2a8d;
         color: #bc2a8d;
       }
-      .google:hover {
-        border-color: #dd4b39;
-        box-shadow: 0px 0px 20px #dd4b39;
-        color: #dd4b39;
-      }
+      .social a {
+          text-decoration: none;
+        color: inherit;
+      } 
     /* main */
     .main_tittle {
         display: flex;
@@ -221,7 +215,7 @@
         color: white;
         background: red;
         box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
-        transition-delay: 1s;
+        transition-delay: 0.5s;
       }
       .button span{
         position: absolute;
@@ -237,7 +231,7 @@
       
       .button:hover span:nth-child(1) {
         left: 100%;
-        transition: 1s;
+        transition: 0.5s;
       }
       .button span:nth-child(3) {
         bottom: 0;
@@ -248,8 +242,8 @@
       }
       .button:hover span:nth-child(3) {
         right: 100%;
-        transition: 1s;
-        transition-delay: 0.5s;
+        transition: 0.5s;
+        transition-delay: 0.25s;
       }
       .button span:nth-child(2) {
         top: -100%;
@@ -260,8 +254,8 @@
       }
       .button:hover span:nth-child(2) {
         top: 100%;
-        transition: 1s;
-        transition-delay: 0.25s;
+        transition: 0.5s;
+        transition-delay: 0.125s;
       }
       .button span:nth-child(4) {
         bottom: -100%;
@@ -272,8 +266,8 @@
       }
       .button:hover span:nth-child(4) {
         bottom: 100%;
-        transition: 1s;
-        transition-delay: 0.75s;
+        transition: 0.5s;
+        transition-delay: 0.375s;
       }
     /* footer */
 
